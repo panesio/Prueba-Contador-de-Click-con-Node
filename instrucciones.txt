@@ -1,0 +1,8 @@
+agregamos el archivo de .ignoregit para que al momento de subirlo tengos todo el contenido 
+que no queremos subirlo al github por temas de optimizacion, en este caso no subiremos 
+la carpeta node_modules porque puede ser muy pesada. Todo esto se pone dentro de .ignoregit .
+
+Al momento de subirla , github ignorará los archivos o carpetas que se hayan declarado dentro 
+del archivo git. Al mometno de exportarlo a nuestra computadora, lo unico que necesitamos es 
+instalar solamente como npm install, ya que node va al package.json e instala las dependencias
+encontradas allí.
